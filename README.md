@@ -1,2 +1,2 @@
 # shuffling
-js日期组件
+基于jq的轮播插件

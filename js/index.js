@@ -77,7 +77,6 @@ Shuffling.prototype = {
         this.clearStyle();
         this.mainImgItem = $('.img-item[data-index=' + index + ']');
         this.mainSwitchItem = $('.switch-item[data-index=' + index + ']');
-
         if (index === 0) {
             this.prevImgItem = $('.img-item[data-index=' + (this.listSize - 1) + ']');
             this.leftImgItem = $('.img-item[data-index=' + (this.listSize - 2) + ']');
