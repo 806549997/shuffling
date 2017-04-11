@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="wrap">
+    <div id="app"></div>
+</div>
+<script src="lib/jQuery-2.1.4.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+    var data = [
+        {path:'img/83606.jpg',url:'#'},
+        {path:'img/88307.jpg',url:'#'},
+        {path:'img/88274.jpg',url:'#'},
+        {path:'img/87901.jpg',url:'#'},
+        {path:'img/87757.jpg',url:'#'},
+        {path:'img/87678.jpg',url:'#'},
+        {path:'img/87615.jpg',url:'#'}
+    ];
+    new Shuffling({
+        wrap: $('#app'),
+        data: data
+    });
+</script>
+</body>
+</html>
